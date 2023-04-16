@@ -8,7 +8,7 @@ netstat -ano  -tulp
 
         Find files:
 
-find . -name flag1.txt:   find the file named “flag1.txt” in the current directory
+#find . -name flag1.txt:   find the file named “flag1.txt” in the current directory
 find /home -name flag1.txt:  find the file names “flag1.txt” in the /home  directory
 find / -type d -name config:   find the directory named config under “/”
 find / -type f -perm 0777:   find files with the 777 permissions (files readable, writable, and executable by all users)
@@ -35,3 +35,10 @@ find / -name gcc*
 
     SUID bit
 find / -perm -u=s -type f 2>/dev/null
+
+
+LinPeas: https://github.com/carlospolop/privilege-escalation-awesome-scripts-suite/tree/master/linPEAS
+LinEnum: https://github.com/rebootuser/LinEnum
+LES (Linux Exploit Suggester): https://github.com/mzet-/linux-exploit-suggester
+Linux Smart Enumeration: https://github.com/diego-treitos/linux-smart-enumeration
+Linux Priv Checker: https://github.com/linted/linuxprivchecker
