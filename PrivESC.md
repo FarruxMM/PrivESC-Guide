@@ -9,7 +9,7 @@ netstat -ano  -tulp
         Find files:
 
 find . -name flag1.txt:   find the file named “flag1.txt” in the current directory
-find /home -name flag1.txt:  find the file names “flag1.txt” in the /home directory
+find /home -name flag1.txt:  find the file names “flag1.txt” in the /home  directory
 find / -type d -name config:   find the directory named config under “/”
 find / -type f -perm 0777:   find files with the 777 permissions (files readable, writable, and executable by all users)
 find / -perm a=x:   find executable files
