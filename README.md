@@ -5,7 +5,11 @@ PrivESC Guide
 /proc/version
 uname -a  /etc/issue
 ps axjf   /etc/passwd
+
+
 <kbd>sudo -l    env</kbd>
+
+
 netstat -ano  -tulp
 
 
