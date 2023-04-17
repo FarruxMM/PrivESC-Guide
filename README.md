@@ -1,7 +1,5 @@
 PrivESC Guide
 
-Copy and paste each command below into a terminal.
-
 - `hostname`
 - `cat /proc/version`
 - `uname -a`
