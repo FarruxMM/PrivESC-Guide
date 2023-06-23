@@ -35,6 +35,8 @@ Find development tools and supported languages:
 
 SUID bit
 - `find / -perm -u=s -type f 2>/dev/null`
+- `find / -user root -perm /4000`
+  
 
 Useful tools:
 - LinPeas: https://github.com/carlospolop/privilege-escalation-awesome-scripts-suite/tree/master/linPEAS
