@@ -36,6 +36,7 @@ Find development tools and supported languages:
 SUID bit
 - `find / -perm -u=s -type f 2>/dev/null`
 - `find / -user root -perm /4000 2>dev/null`
+- `find / -type f -user root -perm -4000 2>/dev/null`
   
 
 Useful tools:
